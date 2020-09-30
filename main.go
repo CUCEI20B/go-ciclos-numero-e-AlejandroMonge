@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-
 	var e float64 = 0.0
 	var ciclo int
 
@@ -15,11 +14,10 @@ func main() {
 
 	}
 
-	fmt.Println(e)
+	fmt.Printf("%f", e)
 }
 
 func factorial(numero int) int {
-
 	factorial := 1
 
 	for i := 1; i <= numero; i++ {
